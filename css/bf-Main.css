@@ -1,0 +1,30 @@
+* {
+    font-family: Bebas Neue, monospace ;
+}
+
+.Top-Section-Content{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+}
+    /*Picture Cover*/
+    /*center center = x axis and y axis*/
+    /*  Save unuse bg:
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), 
+    url('../img/A7B009B3-A7EE-4EAA-AFB3-6CAFBFCB30AD.jpg');
+        background-position: center;
+    background-size: cover;
+    box-shadow: inset 0 0 10px 30px rgba(0, 0, 0, 1); /* Inset black shadow
+    */
+
+
+.Top-imageDiv{
+    background-image: url('../img/A7B009B3-A7EE-4EAA-AFB3-6CAFBFCB30AD.jpg'); 
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image within the div */ 
+    box-shadow: inset 0 0 20px 20px rgba(0, 0, 0, 1); /* Inset black shadow */
+    width: 60%; /* Optional: Set width if needed */
+    height: 380px; /* Optional: Set height for the div */
+}
+

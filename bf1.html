@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BossFlix - Landing Page</title>
+    <!----Font---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+
+    <!----Tailwind CSS CDN---->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----CSS---->
+    <link rel="stylesheet" href="css/nf1.css">
+    <!----Icon---->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!----Youtube Tutorial Base:https://www.youtube.com/watch?v=P7t13SGytRk&t=2828s--->
+</head>
+
+<body class="bg-black text-cyan-50 font-sans border-box m-0 p-0 overflow-y-scroll">
+    <!----NF Clone Header---->
+    <Header class="HeaderCover">
+        <div class="text-center pt-10 pb-10">
+            <a class=" text-[#ff2323] text-6xl font-bold drop-shadow-xl tracking-wider hover:text-[#ff7c7c]"
+                href="#">BossFlix</a>
+            <a class="text-[#eeff00ce] text-xl drop-shadow-lg absolute right-6 tracking-wider hover:text-[#ffffee]"
+                href="bfSignIn.html">Sign In</a>
+            <a class=" text-[#eeff00ce] text-xl drop-shadow-xl absolute right-24 tracking-wider hover:text-[#ffffee]"
+                href="#">About</a>
+        <!----NF Header Context---->
+        </div class>
+        <div class="text-center mt-20 tracking-wider">
+            <h1 class="text-4xl">NetFlix Clone by Boss_emeraldd</h1>
+            <p class="mt-10 text-2xl">This is a sample Netflix clone - landing page</p>
+            <p class="text-2xl mb-14">Simply create by using Tailwind CSS v3.4.13 (using the CDN)</p>
+            <div class="inline-block bg-[#d82424f5] text-xl py-[7.5px] px-6 tracking-wider rounded-[6px]
+            hover:bg-[#da7171f5] hover:cursor-pointer hover:scale-[1.03] transition animate-pulse">
+            <a href="bfSignIn.html">Watch BossFlix Free for 7 Days</a></div>
+        </div> 
+    </Header>
+    <!----NF Clone Header End---->
+
+    <!-----Tab Section-------->
+    <section name='tab'>
+        <div class="flex justify-evenly text-center tracking-wider bg-gradient-to-r from-[#000000] via-[#2e2c2c] to-[#000000] px-6 overflow-hidden max-w-[100%] ">
+            <div id="tab-Item1" class="py-8 px-14 hover:text-red-500 hover:cursor-pointer hover:scale-[1.2] ">
+                <i class='bx bxs-door-open text-4xl '></i>
+                <p class="text-xl pt-2">Cancel Anytime</p>
+            </div>
+            <div id="tab-Item2" class="py-8 px-14 text-red-500 hover:text-red-500 hover:cursor-pointer hover:scale-[1.2] ">
+                <i class='bx bx-slideshow text-4xl' ></i>
+                <p class="text-xl pt-2">Watch Anywhere</p>
+            </div>
+            <div id="tab-Item3" class="py-8 px-14 hover:text-red-500 hover:cursor-pointer hover:scale-[1.2] ">
+                <i class='bx bx-purchase-tag text-4xl' ></i>
+                <p class="text-xl pt-2">Pick Your Price</p>
+            </div>
+
+        </div>
+    </section>
+    <!-----Tab Section End---->
+
+
+    <!-----Tab Content---------------------------------------------->
+    <section Tab-Content>
+        <div id="tab-content">
+            <!--Tab content 1-->
+            <div id="tab-content-item1" class="hidden mt-[132px] mb-[140px]">
+                <div class="flex justify-center items-center text-left gap-12 pt-8 text-gray-100 tracking-wider">
+                    <div>
+                        <p>Watch First. If you decide to cancel,</p>
+                        <p class="mb-8">you can cancel online any time with no commitment</p>
+                        <div class="inline-block bg-[#d82424f5] text-md py-[4.5px] px-4 tracking-wider rounded-[2.5px]
+                                    hover:bg-[#da7171f5] hover:cursor-pointer hover:scale-[1.03]">
+                                    <a href="bfSignIn.html">Watch BossFlix Free for 7 Days</a>
+                        </div>
+                    </div>
+                    <div><img class="w-[400px]" src="https://content.api.news/v3/images/bin/ca209e22f9780ac8d8038556dc97403c" alt="Cancel Image"></div>
+                </div>
+            </div>
+            <!--Tab content 1 End-->
+
+            <!--Tab content 2-->
+            <div id="tab-content-item2" class="text-lg mb-20 mt-0" >
+                <!--Tab content 2 top-->
+                <div id="tab2-top" class="py-12 flex justify-center items-center gap-2 ">
+                    <p class="text-lg">Watch TV Show and Movie Now!!</p><span class="text-[24px]">>>></span>
+                    <div class="inline-block bg-[#d82424f5] text-md py-[4.5px] px-4 tracking-wider rounded-[2.5px]
+                                hover:bg-[#da7171f5] hover:cursor-pointer hover:scale-[1.03]">
+                                <a href="bfSignIn.html">Watch BossFlix Free for 7 Days</a>
+                    </div>
+                </div>
+                <!--Tab content 2 bottom-->
+                <div id="tab2-bottom" class="flex justify-evenly items-center text-center px-10 my-4">
+                    <div class="flex flex-col items-center hover:scale-[1.05]">
+                        <img width="240px" src='/img/S__19873794_0.jpg' alt="TV Image">
+                        <p class="tracking-wider">Watch on Your TV</p>
+                        <p class="tracking-wider  text-gray-400">Smart TV,  Apple TV, Blu-ray player and more</p>
+                    </div>
+
+                    <div class="flex flex-col items-center hover:scale-[1.05]">
+                        <div class="mb-5"><img width="240px" src='/img/S__19873796_0.jpg' alt="TV Image"></div>
+                        <p class="tracking-wider">Watch instantly or download for later</p>
+                        <p class="tracking-wider  text-gray-400">Available on Phone, Table and more</p>
+                    </div>
+            
+                    <div class="flex flex-col items-center hover:scale-[1.03]">
+                        <div class="mb-5"><img width="240px" src='/img/S__19873797_0.jpg' alt="TV Image"></div>
+                        <p class="tracking-wider">Watch on any computer</p>
+                        <p class="tracking-wider text-gray-400">Watch right on BossFlix.com .......</p>
+                    </div>
+                </div>
+            <!--Tab content 2 bottom-->
+            </div>
+                <!--Tab content 2 End-->
+
+            <!--Tab content 3-->
+            <div id="tab-content-item3" class="hidden mt-6 mb-[140px]">
+                <div id="tab3-top" class="flex justify-center text-center items-center gap-2 pt-12 text-lg tracking-wider">
+                    <p>Choose your plan and watch everything on BossFlix</p><span class="text-[24px]">>>></span>
+                    <div class="inline-block bg-[#d82424f5] text-md py-[4.5px] px-4 tracking-wider rounded-[2.5px]
+                                    hover:bg-[#da7171f5] hover:cursor-pointer">
+                                    <a href="bfSignIn.html">Watch BossFlix Free for 7 Days</a>
+                    </div>
+                </div>
+                <!--Tab content 3 Table-->
+                <div table class="flex justify-center">
+                    <table class="text-lg font-normal tracking-wider mt-14">
+                        <thead class="text-xl ">
+                            <tr>
+                                <th>Details</th>
+                                <th class="px-4 py-1">Basic</th>
+                                <th class="px-4 py-1">Standard</th>
+                                <th class="px-4 py-1">Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr tr1 class="trOdd">
+                                <td class="tdCol1">Monthly Price after free month</td>
+                                <td>100 Bath</td>
+                                <td>150 Bath</td>
+                                <td>250 Bath</td>
+                            </tr>
+                            <tr tr2>
+                                <td class="tdCol1">HD Available</td>
+                                <td><i class='bx bx-x'></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                            </tr>
+                            <tr tr3 class="trOdd">
+                                <td class="tdCol1">Ultra HD Available</td>
+                                <td ><i class='bx bx-x'></i></td>
+                                <td><i class='bx bx-x'></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                            </tr>
+                            <tr tr4>
+                                <td class="tdCol1">Screen that can watch at the same time</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>4</td>
+                            </tr>
+                            <tr tr5 class="trOdd">
+                                <td class="tdCol1">Unlimited Movies and TV Shows</td>
+                                <td><i class='bx bx-check'></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                            </tr>
+                            <tr tr6>
+                                <td class="tdCol1">First Month Free</td>
+                                <td><i class='bx bx-check'></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                            </tr>
+                            <tr tr7 class="trOdd">
+                                <td class="tdCol1">Special Gift from BossFlix</td>
+                                <td><i class='bx bx-x'></i></td>
+                                <td><i class='bx bx-x'></i></i></td>
+                                <td><i class='bx bx-check'></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div table>
+                <!--Tab content 3 Table-->
+            </div>
+            <!--Tab content 3 End-->
+        </div>  
+    </section Tab-Content>
+    <!-----Tab Content---------------------------------------------->
+        
+
+    <!----------------- --Footer Start------------------------->
+    <footer>
+        <div footer class="text-lg border-t-[1px] border-gray-500 bg-gradient-to-b from-[#252525] to-black tracking-wider">
+            <h3 class="text-center text-red-600 text-[32px] mt-6 mb-6">BossFlix</h3>
+            <p class="text-center">Social Media, Lorem ipsum dolor sit amet.
+            </p>
+            <div class="flex justify-center items-center ">
+                <ul class="flex space-x-20 my-8">
+                    <li class="text-[32px] text-blue-700 hover:text-blue-200"><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+                    <li class="text-[32px] bg-gradient-to-r from-pink-600 to-yellow-600 bg-clip-text text-transparent
+                        hover:text-blue-200"><a href=""><i class='bx bxl-instagram'></i></a></li>
+                    <li class="text-[32px] text-white hover:text-gray-500"><a href=""><i class='bx bxl-tiktok' ></i></a></li>
+                    <li class="text-[32px] text-red-600 hover:text-red-300"><a href=""><i class='bx bxl-youtube'></i></a></li>
+                </ul>
+            </div>
+            <div class="text-center mb-4">
+                <p>Question? Call: 123-456-7891</p>
+                <p>@copyright 2024 designed and created by Boss_emeraldd</p>
+            </div>
+        </div>
+    </footer>
+    <!----------------- ----Footer End---------------------->
+
+    <script src="js/nf1.js"></script>
+</body>
+
+</html>

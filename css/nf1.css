@@ -1,0 +1,42 @@
+* {
+    font-family: Bebas Neue, monospace ;
+}
+
+.HeaderCover{
+    background: rgb(39, 39, 39);
+    width: 100%;
+    height: 50vh;
+    /*Picture Cover*/
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url('https://wpassets.brainstation.io/app/uploads/2017/04/13100509/Netflix-Background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 40px 40px 50px #000, inset -40px -40px  50px #000;
+    overflow:hidden;
+    
+    /*center center = x axis and y axis*/
+}
+
+.tdCol1{
+    text-align: left;
+    padding-right: 12px;
+}
+
+.trOdd{
+    background: rgb(45, 45, 45);
+}
+
+/*Button Animation*/
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 2s ease-in;
+}

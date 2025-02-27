@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BossFlix - Sign In Page</title>
+    <!----Font---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+
+    <!----Tailwind CSS CDN---->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----CSS---->
+    <link rel="stylesheet" href="css/nf-sign.css">
+    <!----Icon---->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body class="background-nfSign overflow-y-scroll">
+    <Header>
+        <div class="text-center pt-10 pb-10">
+            <a class=" text-[#ff2323] text-6xl font-bold tracking-wider hover:text-[#ff7c7c]"
+                href="bf1.html">BossFlix</a>
+            <a class=" text-[#eeff00ce] text-xl absolute right-6 tracking-wider hover:text-[#ffffee]"
+                href="#">About</a>
+        <!----NF Header Context---->
+    </Header>
+
+    <!----Form/ Sign In---->
+    <div  Form class="absolute left-1/2 top-1/2 w-[430px] pt-[40px] pb-[15px] px-[60px] rounded-[8px] bg-black bg-opacity-60 border-[1px] border-gray-600 transform translate-x-[-50%] translate-y-[-57%] tracking-wider">
+        <h2 class="text-[3rem] text-center">Sign In</h2>
+        <form action="#" class="mt-[25px] mb-[50px] mx-0">
+            <div class="h-[50px] mb-4">
+                <label id="labelEmailOrPhone" class="hidden">Email or Phone No.</label>
+                <input id="emailOrPhone" type="text" required placeholder="Email or Phone No." class="h-[60%] w-[100%] bg-gray-100 rounded-[4px] text-gray-700 text-[1rem] py-0 px-[15px] border focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-gray-600">
+            </div>
+            <div class="h-[50px] mb-1">
+                <label id="labelPassword" class="hidden">Password</label>
+                <input id="Password" type="password" required placeholder="Password" class="h-[60%] w-[100%] bg-gray-100 rounded-[4px] text-gray-700 text-[1rem] py-0 px-[15px] border focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 placeholder:text-gray-600">
+            </div>
+
+            <button id="signInButton" onclick="navigateToNextPage()" class="w-[100%] py-[8px] bg-red-600 rounded-[4px] mt-5 mb-4 text-xl border-none outline-none hover:bg-red-400">Sign In</button>
+            <div>
+                <div class="flex mb-2">
+                    <input type="checkbox"checked id="remember-me" class=" h-5 w-5 border border-gray-300 rounded-xl checked:bg-blue-500 checked:text-blue-700  checked:border-blue-500">
+                    <label for="remember-me" class="text-[#dbdbdb] ml-2">Remember me</label>
+                </div>
+                <a href="#" class="text-[#818181]">Need Help?</a>
+            </div>
+        </form>
+        <div class="flex-col text-center">
+            <p class=" text-gray-400">New to Bossflix?<a href="#" class="text-[#a05050]"> Sign up now</a></p>
+            <small class="text-[12px] text-gray-400">
+                @copyright 2024 designed and created by Boss_emeraldd/                
+            </small>
+        </div>
+    </div>
+    <div Form class=" text-center text-xl absolute left-1/2 top-[80%] w-full py-[15px] px-[25px] rounded-[8px] bg-black bg-opacity-70 border-[1px] border-gray-600 transform translate-x-[-50%] tracking-wider transition animate-pulse">
+        <p>Note: T​his version has no Authentication, </p>
+        <p>you can input any email and password.</p>
+        <a href="bfMain.html">Shortcut</a>
+    </div>
+    <!----Form/ Sign In---->
+    
+
+
+
+
+    <script src="js/nfLogin.js">
+        
+    </script>
+
+</body>
+</html>

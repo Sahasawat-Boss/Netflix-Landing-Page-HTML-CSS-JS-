@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BossFlix - Main Page</title>
+    <!----Font---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+
+    <!----Tailwind CSS CDN---->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----CSS---->
+    <link rel="stylesheet" href="css/bf-Main.css">
+    <!----Icon---->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body class="bg-black text-white border-box m-0 p-0 overflow-y-scroll tracking-wider">
+
+    <!-- Nav Section -->
+    <nav class="flex justify-between items-center px-4 py-6 bg-gradient-to-r from-[#000000] via-[#383737] to-[#030303]">
+        <a href="bfMain.html" class="text-[#ff2323] text-4xl pl-10">BossFlix</a>
+        <nav class="flex gap-5 pr-4 text-lg">
+            <a href="/bfpd.html" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-[#cc5d5d]">Product</a>
+            <a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-[#cc5d5d]">TV Shows</a>
+            <a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-[#cc5d5d]">Movies</a>
+            <a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-[#cc5d5d]">About</a>
+            <a href="#" class="hover:text-[#cc5d5d] text-xl"><i class='bx bxs-cog'></i></a>
+        </nav>
+    </nav>
+    <!-- Nav Section -->
+
+    <Section Name="Top Section">
+        <!-- Header with Background Image -->
+        <section class="Top-Section-Content">
+            <div class="flex justify-around items-center pl-20 pr-8 pt-4 ">
+                <div class="w-1/3">
+                    <p class="text-xl"># Popular Movie</p>
+                    <p class="text-4xl mb-2">Movie Title: ............</p>
+                    <p class="indent-6 text-lg mb-6">Simply create by using Tailwind CSS (CDN) Simply create by using Tailwind CSS (CDN)Simply create by using Tailwind CSS (CDN)</p>
+                    <div class="inline-flex items-center justify-center text-black  bg-[#ffffff] px-6 pt-2 pb-[6px] rounded-[3.5px] mr-2
+                    hover:bg-[#b3b3b3f5] hover:cursor-pointer hover:text-white group">
+                        <a href="#" class="flex items-center space-x-1">
+                            <i class='bx bxs-right-arrow text-black text-[14px] group-hover:text-white' ></i>
+                            <span class="text-[16px]">Play</span>
+                        </a>
+                    </div>
+                    <div class="inline-flex items-center justify-center bg-[#636363] px-4 pt-2 pb-[6px] rounded-[3.5px] mr-2
+                    hover:bg-[#a8a8a8f5] hover:cursor-pointer">
+                        <a href="#" class="flex items-center space-x-1">
+                            <i class='bx bx-info-circle text-[16px]'></i>
+                            <span class="text-[16px]">More info</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="Top-imageDiv hover:scale-[1.05] transition-transform duration-300"></div>                
+            </div>
+        </section>
+    </Section>
+
+
+    <!-- Movie Categories Section 1-->
+    <main class="Movie-Categories px-10 py-5 ">
+        <h1 class="text-4xl mb-6">Movie Categories</h1>
+        <!-- Scrollable Category: Horror -->
+        <section Name="HorrorMovie" class="pb-4 bg-[#1b1b1b]">
+            <h2 class="text-[26px] mb-4 bg-black">Horror</h2>
+            <div class="relative">
+                <button id="left-scroll" class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 m-1 shadow-2xl">
+                    <div class="text-[50px]"><i class='bx bx-caret-left-circle' ></i></div>
+                </button>
+                <!-- Scrollable Item -->
+                <div id="scroll-container" class="flex gap-[6px] overflow-x-hidden scroll-hide h-48 ">
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19922950_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19922952_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19873794_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19922950_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19922952_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19873794_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19922950_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19922952_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/S__19873794_0.jpg" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+                    
+                    <!-- Scrollable Item -->
+                <button id="right-scroll" class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 m-1 ">
+                    <div class="text-[50px]"><i class='bx bx-caret-left-circle bx-rotate-180' undefined ></i></div>
+                </button>
+            </div>
+        </section Name="HorrorMovie">
+        <!-- Scrollable Category: Horror -->
+    </main>
+    <!-- Movie Categories Section 1-->
+
+    <!-- Movie Categories Section 2 -->
+    <main class="Movie-Categories px-10 py-5 ">
+        <!-- Scrollable Category: Animal-->
+        <section Name="HorrorMovie" class="pb-4 bg-[#1b1b1b]">
+            <h2 class="text-[26px] mb-4 bg-black">Animal Planet</h2>
+            <div class="relative">
+                <button id="left-scroll2" class="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 m-1 shadow-2xl">
+                    <div class="text-[50px]"><i class='bx bx-caret-left-circle' ></i></div>
+                </button>
+                <!-- Scrollable Item -->
+                <div id="scroll-container2" class="flex gap-[6px] overflow-x-hidden scroll-hide h-48 ">
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/view-funny-animal_23-2151098423.avif" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/65204eed6e038039826c1ea9.webp" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/4692.webp" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/view-funny-animal_23-2151098423.avif" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/65204eed6e038039826c1ea9.webp" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/4692.webp" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/view-funny-animal_23-2151098423.avif" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/65204eed6e038039826c1ea9.webp" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+                    <div class="bg-gradient-to-r from-[#000000] to-[#313131] rounded-lg overflow-hidden shadow-md min-w-[220px]">
+                        <img src="img/4692.webp" alt="Action Movie" class="max-w-72 object-cover transition-transform duration-300 hover:scale-110">
+                    </div>
+
+
+                    <!-- Scrollable Item -->
+                <button id="right-scroll2" class="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 m-1 ">
+                    <div class="text-[50px]"><i class='bx bx-caret-left-circle bx-rotate-180' undefined ></i></div>
+                </button>
+            </div>
+        </section Name="HorrorMovie">
+        <!-- Scrollable Category: Horror -->
+    </main>
+    <!-- Movie Categories Section 2-->
+
+    <!-- VDO Section -->
+
+    <!-- VDO Section -->
+    <Section Name="Top Section">
+        <!-- Header with Background Image -->
+        <section class="Top-Section-Content">
+            <div class="flex justify-around items-center pl-8 pr-20 pb-4 ">
+                <div class="video-container my-20 flex justify-center">
+                    <video autoplay muted loop class="background-video h-96 hover:scale-105 transition duration-300">
+                        <source src="img/IMG_0841.mp4" type="video/mp4">
+                    </video>
+                </div>     
+                <div class="w-1/2">
+                    <p class="text-4xl pb-4">movie trailers: .............</p>
+                    <p class="indent-6 text-lg mb-6">Simply create by using Tailwind CSS (CDN) Simply create by using Tailwind CSS (CDN)Simply create by using Tailwind CSS (CDN)</p>
+                    <p class="indent-6 text-lg mb-6">Simply create by using Tailwind CSS (CDN) Simply create by using Tailwind CSS (CDN)Simply create by using Tailwind CSS (CDN)Simply create by using Tailwind CSS (CDN)Simply create by using Tailwind CSS (CDN)</p>
+                    <div class="inline-flex items-center justify-center text-black  bg-[#ffffff] px-6 pt-2 pb-[6px] rounded-[3.5px] mr-2
+                    hover:bg-[#b3b3b3f5] hover:cursor-pointer hover:text-white group">
+                        <a href="#" class="flex items-center space-x-1">
+                            <i class='bx bxs-right-arrow text-black text-[14px] group-hover:text-white' ></i>
+                            <span class="text-[16px]">Play</span>
+                        </a>
+                    </div>
+                    <div class="inline-flex items-center justify-center bg-[#636363] px-4 pt-2 pb-[6px] rounded-[3.5px] mr-2
+                    hover:bg-[#a8a8a8f5] hover:cursor-pointer">
+                        <a href="#" class="flex items-center space-x-1">
+                            <i class='bx bx-info-circle text-[16px]'></i>
+                            <span class="text-[16px]">More info</span>
+                        </a>
+                    </div>
+                </div>
+           
+            </div>
+        </section>
+    </Section>
+
+
+    <!----------------- --Footer Start------------------------->
+    <footer>
+        <div footer class="text-lg border-t-[1px] border-gray-500 bg-gradient-to-b from-[#252525] to-black tracking-wider">
+            <h3 class="text-center text-red-600 text-[32px] mt-6 mb-6">BossFlix</h3>
+            <p class="text-center">Social Media, Lorem ipsum dolor sit amet.
+            </p>
+            <div class="flex justify-center items-center ">
+                <ul class="flex space-x-20 my-8">
+                    <li class="text-[32px] text-blue-700 hover:text-blue-200"><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+                    <li class="text-[32px] bg-gradient-to-r from-pink-600 to-yellow-600 bg-clip-text text-transparent
+                        hover:text-blue-200"><a href=""><i class='bx bxl-instagram'></i></a></li>
+                    <li class="text-[32px] text-white hover:text-gray-500"><a href=""><i class='bx bxl-tiktok' ></i></a></li>
+                    <li class="text-[32px] text-red-600 hover:text-red-300"><a href=""><i class='bx bxl-youtube'></i></a></li>
+                </ul>
+            </div>
+            <div class="text-center mb-4">
+                <p>Question? Call: 123-456-7891</p>
+                <p>@copyright 2024 designed and created by Boss_emeraldd</p>
+            </div>
+        </div>
+    </footer>
+    <!----------------- ----Footer End---------------------->
+
+
+
+    <script src="js/nfM1.js"></script>
+</body>
+</html>

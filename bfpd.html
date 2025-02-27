@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BossFlix - Main Page</title>
+    <!----Font---->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+
+    <!----Tailwind CSS CDN---->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----CSS---->
+    <link rel="stylesheet" href="css/bf-Main.css">
+    <!----Icon---->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body class="bg-black text-white border-box m-0 p-0 overflow-y-scroll tracking-wider">
+
+    <!-- Nav Section -->
+    <nav class="flex justify-between items-center px-4 py-6 bg-gradient-to-r from-[#000000] via-[#383737] to-[#030303]">
+        <a href="bfMain.html" class="text-[#ff2323] text-4xl pl-10">BossFlix</a>
+        <nav class="flex gap-5 pr-4 text-lg">
+            <a href="#" class="underline underline-offset-4 decoration-2 text-[#db5656]">Product</a>
+            <a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-[#cc5d5d]">TV Shows</a>
+            <a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-[#cc5d5d]">Movies</a>
+            <a href="#" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:text-[#cc5d5d]">About</a>
+            <a href="#" class="hover:text-[#cc5d5d] text-xl"><i class='bx bxs-cog'></i></a>
+        </nav>
+    </nav>
+    <!-- Nav Section -->
+
+    <!-- Top Section-->
+    <section Name="Top Section" class=" p-8">
+        <H1 class="text-4xl">Product</H1>
+        <p class="text-2xl">This page is for test API Fetching Data</p>
+        <p>This is a product data (Thumbnail, Titl, Price) from https://dummyjson.com/products</p>
+    </section>
+
+    <main name="All Card" class="p-8 bg-gray-800">
+        <section id="productlist" class="flex flex-wrap ">
+            <div id="product-container"></div>
+            <!----Card---->
+            <!----<div id="product-container" class="productcard  bg-gray-900 inline-block rounded-2xl">
+                <img class="h-[150px] w-[200px] object-cover rounded-2xl" src="https://media4.giphy.com/media/3oEjI6SIIHBdRxXI40/200w.gif?cid=6c09b952k05o7bhje0aku1kd97pwr7x0jz9gad0z5kr9tf34&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Product Picture">
+                <div class="productButtomSheet p-3">
+                    <div class="productInfoContainer">
+                        <div class="productName">Iphone</div>
+                        <div class="productPrice">20,000 Bath</div>
+                    </div>
+                    <button class="addToCart bg-gray-700 hover:bg-gray-400 px-2 pt-1 rounded-[4px]">Add to Cart</button>
+                </div>
+            </div> ---->
+            <!----Card---->
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/js/bfpd.js"></script>
+</body>
+</html>
